@@ -38,7 +38,7 @@ app.use("/api", router);
 // Frontend production build
 const frontendDist = path.resolve(
   process.cwd(),
-  "artifacts/hand-cricket-arena/dist/public",
+  "../hand-cricket-arena/dist/public",
 );
 
 app.use(express.static(frontendDist));
